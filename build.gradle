@@ -1,0 +1,15 @@
+group 'bandal'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "io.netty:netty-all:4.0.49.Final"
+    testCompile "junit:junit:latest.release"
+}
